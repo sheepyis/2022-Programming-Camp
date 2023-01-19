@@ -9,8 +9,8 @@ function sendLink() {
     Kakao.Link.sendDefault({
         objectType: 'feed',
         content: {
-            title: '프로그래밍 언어 테스트',
-            description: '#2023 #한성대 #컴퓨터공학부 #동계 프로그래밍 캠프',
+            title: '프로그래밍 언어 테스트',    //카카오톡 전송 시 제목
+            description: '#2023 #한성대 #컴퓨터공학부 #동계 프로그래밍 캠프',   //카카오톡 전송 시 설명에 넣을 문구
             imageUrl: './image/main.png',
             link: {
                 mobileWebUrl: 'https://sheepyis.github.io/2022-Programming-Camp/test/language.html',
@@ -19,7 +19,7 @@ function sendLink() {
         },
         buttons: [
             {
-                title: '프로그래밍 언어 만나러 가기',
+                title: '프로그래밍 언어 만나러 가기', //카카오톡 전송 시 버튼에 넣을 문구
                 link: {
                     mobileWebUrl: 'https://sheepyis.github.io/2022-Programming-Camp/test/language.html',
                     webUrl: 'https://sheepyis.github.io/2022-Programming-Camp/test/language.html',

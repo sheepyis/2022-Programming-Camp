@@ -1,3 +1,4 @@
+//질문 배열
 const qnaList = [
     {
         q: '개발에 관심이 있니?',
@@ -117,8 +118,9 @@ const qnaList = [
         },
     ]
    }
-]//qnaList 끝
+]
 
+//결과 정보 배열
 var infoList = [
     {
         name : "이 구역 행동대장!",
@@ -202,7 +204,7 @@ var infoList = [
         bad: "[안 맞는 궁합] C#, C++"
 
     }
-]//infoList 끝
+]
 
 // const questionlist=[
 //     {
@@ -220,6 +222,7 @@ var infoList = [
 // }
 // ]
 
+//개발 언어를 담을 배열, count를 0으로 초기화
 let p = [
     {count:0},//java
     {count:0},//c
